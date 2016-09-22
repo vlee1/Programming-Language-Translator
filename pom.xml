@@ -40,6 +40,6 @@
 
   </dependencies>
   <build>
-    <finalName>UserDisplayExercise</finalName>
+    <finalName>ProgrammingLanguageTranslator</finalName>
   </build>
 </project>
