@@ -11,4 +11,5 @@
 |09/17/2019|Working index css file and bootstrap| 8 ||
 |09/18/2016|Working index css file and bootstrap| 8 ||
 |09/20/2016|Changed project to Programming Language Translator. Worked on css files and bootstrap| 9 ||
-|09/21/2016|Finished index jsp. Finished screen designs and database design| 9 ||   
+|09/21/2016|Finished index jsp. Finished screen designs and database design| 9 ||
+|09/22/2016|Created Database and java classes. Added methods in java classes| 10 | |
