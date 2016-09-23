@@ -3,14 +3,9 @@ package com.matc.persistence;
 import com.matc.entity.User;
 import org.apache.log4j.Logger;
 
-import java.io.IOException;
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Properties;
 
 /**
  * Created by student on 9/22/16.
@@ -18,61 +13,81 @@ import java.util.Properties;
 public class UserData {
 
     private final Logger logger = Logger.getLogger(this.getClass());
-    private List<User> users;
+
     private Database database;
     private Connection connection;
-    private Properties properties;
+    private List<User> users;
 
     public UserData() {
-
-        users = new ArrayList<User>();
         database = Database.getInstance();
-        loadProperties();
+        users = new ArrayList<User>();
     }
 
-    private void loadProperties() {
-        properties = new Properties();
+
+    public void addUserToDatabase(User user) {
+
+        String sql = "INSERT INTO User(user_name, user_password, user_email, user_actDate) " +
+                "VALUES(" + user.getUserName() + ", " + user.getUserPassword() + ", " + user.getUserEmail() +
+                ", NOW())";
+
         try {
-            properties.load (this.getClass().getResourceAsStream("/database.properties"));
-        } catch (IOException ioe) {
-            logger.info("Database.loadProperties()...Cannot load the properties file");
-            logger.info("io.PrintStackTrace()");
+            database.connect();
+            connection = database.getConnection();
+            PreparedStatement preparedStatement = connection.prepareStatement(sql);
+
+            preparedStatement.executeUpdate();
+            database.disconnect();
+
+        } catch (SQLException e) {
+            database.disconnect();
+
+            logger.error(e.getStackTrace());
+
         } catch (Exception e) {
-            logger.info("Database.loadProperties()..." + e);
-            logger.info("e.printStackTrace()");
+            database.disconnect();
+
+            logger.error(e.getStackTrace());
         }
 
     }
 
-    public void addUser(String sql) {
+    public void addUserToList(String sql) {
+
         try {
             database.connect();
             connection = database.getConnection();
-            Statement selectStatement = connection.createStatement();
-            ResultSet results = selectStatement.executeQuery(sql);
+            PreparedStatement preparedStatement = connection.prepareStatement(sql);
+            ResultSet results = preparedStatement.executeQuery(sql);
 
             while (results.next()) {
+
                 User user = createUserFromResults(results);
                 users.add(user);
             }
 
+        } catch (SQLException e) {
             database.disconnect();
 
-        } catch (SQLException e) {
-            logger.debug("SearchUser.getMatchingLastName()...SQL Exception: " + e);
+            logger.error(e.getStackTrace());
+
         } catch (Exception e) {
-            logger.debug("SearchUser.getMatchingLastName()...Exception: " + e);
+            database.disconnect();
+
+            logger.error(e.getStackTrace());
         }
     }
 
-    public List<User> getAllUsers() {
+    public void getAllUsers() {
+        String allUsers = "SELECT * FROM User";
 
-        String sql = "SELECT * FROM users";
-
-        addUser(sql);
-
-        return users;
+        addUserToList(allUsers);
     }
 
+    private User createUserFromResults(ResultSet results) throws SQLException {
+        User user = new User(results.getString("user_name"), results.getString("user_email"),
+                results.getDate(4), results.getDate(5));
+
+        return user;
+    }
 
 }
