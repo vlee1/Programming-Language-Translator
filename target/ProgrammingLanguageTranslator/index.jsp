@@ -22,13 +22,13 @@
 					  Sign up
 					</button>
 
-					<form id="form-sign-up" class="form-inline">
+					<form id="form-sign-in" class="form-inline">
 					  <div class="form-group">
-					    <label class="sr-only" for="exampleInputEmail3">Email address</label>
-					    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+
+					    <input type="text" class="form-control" id="email" placeholder="Email">
 					  </div>
 					  <div class="form-group">
-					    <label class="sr-only" for="exampleInputPassword3">Password</label>
+
 					    <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
 					  </div>
 					  <button type="submit" class="btn btn-default">Sign in</button>
@@ -40,15 +40,41 @@
 					    <div class="modal-content">
 					      <div class="modal-header">
 					        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-					        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+					        <h4 class="modal-title" id="myModalLabel">Programming Language Translator Sign up</h4>
 					      </div>
-					      <div class="modal-body">
-					        ...
+					      <div id="modal-body" class="modal-body">
+
+							  <form id="form-sign-up" class="form-inline" method="POST" action="/signup">
+								  <div class="form-group">
+									  <input type="text" class="form-control" id="new_email" placeholder="Enter your email">
+								  </div>
+								  <br />
+								  <div class="form-group">
+									  <input type="text" class="form-control" id="create_userName" placeholder="Create your username">
+								  </div>
+								  <br />
+								  <div class="form-group">
+									  <input type="password" class="form-control" id="create_password" placeholder="Create your password">
+								  </div>
+								  <br />
+								  <div class="form-group">
+									  <input type="password" class="form-control" id="confirm_password" placeholder="Confirm your password">
+								  </div>
+								  <br />
+								  <div class="checkbox">
+									  <label>
+										  <input type="checkbox"> I agree with PLT <a href="#">Terms and Policies</a>.
+									  </label>
+								  </div>
+
+								  <div id="modal-footer-line" class="modal-footer">
+									  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+									  <input type="submit" id="signup_btn" name="signup_btn" class="btn btn-primary" value="Sign up">
+								  </div>
+							  </form>
+
 					      </div>
-					      <div class="modal-footer">
-					        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-					        <button type="button" class="btn btn-primary">Save changes</button>
-					      </div>
+
 					    </div>
 					  </div>
 					</div>

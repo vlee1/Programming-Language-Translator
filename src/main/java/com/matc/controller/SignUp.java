@@ -1,5 +1,6 @@
 package com.matc.controller;
 
+import com.matc.entity.User;
 import com.matc.persistence.UserData;
 
 import javax.servlet.ServletException;
@@ -14,7 +15,7 @@ import java.io.IOException;
  * Created by student on 9/22/16.
  */
 @WebServlet(
-        urlPatterns = {"/signedIndex"}
+        urlPatterns = {"/signup"}
 )
 public class SignUp extends HttpServlet {
 
@@ -22,6 +23,8 @@ public class SignUp extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
     {
         HttpSession session = request.getSession();
+
+        //User newUser = new User(request.getParameter("user_name"));
         UserData userData = new UserData();
 
     }
