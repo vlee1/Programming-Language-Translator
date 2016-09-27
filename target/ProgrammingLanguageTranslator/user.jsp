@@ -25,6 +25,14 @@
                                 PLT
                             </a>
                         </div>
+
+                        <div id="signed-user" class="nav-header">
+                            <a href="#"></a>
+                        </div>
+
+                        <div id="translator-link-container">
+                            <a href="translator.jsp">Start</a>
+                        </div>
                     </div>
                 </nav>
 
@@ -32,7 +40,29 @@
             </div>
 
             <div id="content">
-                
+                <div class="form-group">
+                    <label for="fileUpload">Upload your file</label>
+                    <input type="file" id="fileUpload">
+                    <p class="help-block">Only programming language files (.js, .java, .php, etc.)</p>
+                </div>
+
+                <div id="input-box-container">
+                    <div id="language-list">
+                        <div class="dropdown">
+                            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                Dropdown
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
             </div>
 

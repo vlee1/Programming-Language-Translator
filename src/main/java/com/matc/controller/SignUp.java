@@ -1,7 +1,6 @@
 package com.matc.controller;
 
 import com.matc.entity.User;
-import com.matc.persistence.UserData;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -25,7 +24,7 @@ public class SignUp extends HttpServlet {
         HttpSession session = request.getSession();
 
         //User newUser = new User(request.getParameter("user_name"));
-        UserData userData = new UserData();
+        User userData = new User();
 
     }
 
