@@ -11,7 +11,7 @@
     <schema id="6" name="sample"/>
     <schema id="7" name="sys"/>
     <table id="8" parent="1" name="Feedback"/>
-    <table id="9" parent="1" name="User"/>
+    <table id="9" parent="1" name="Users"/>
     <column id="10" parent="8" name="feedback_id">
       <mandatory>1</mandatory>
       <data-type>int(11)|0</data-type>
