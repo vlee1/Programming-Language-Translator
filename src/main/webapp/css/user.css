@@ -47,14 +47,15 @@ a:hover {
 }
 #content .user-account-box {
 	width: 100%;
+	background: #7F7E7E;
 	box-shadow: 4px 4px 5px #B1B1B1;
 }
 
 #content .user-image {
+	float: left;
 	width: 180px;
 	height: 180px;
 	background-color: #DEDEDE;
-	float: left;
 }
 #content .user-image .image-content {
 	background: url('../images/profile-icon180.png') no-repeat;
@@ -64,12 +65,34 @@ a:hover {
 }
 #content .welcome-title {
 	height: 180px;
-	background: #535353;
 	color: #FFF;
-	text-align: center;
 }
 #content .welcome-title h2 {
-	line-height: 3;
+	display: inline-block;
+	width: 400px;
+	margin-top: 120px;
+	margin-left: 20px;
+}
+#content .github {
+	float: right;
+	width: 300px;
+	margin-top: 120px;
+	padding-bottom: 3px;
+}
+#content .github p {
+	float: right;
+	font-size: 15px;
+	margin-right: 20px;
+}
+#content .gitHubLink {
+	color: #000;
+	font-weight: bold;
+	cursor: pointer;
+	border-bottom: 1px solid #000;
+}
+#content .gitHubLink:hover {
+	color: #87C540;
+	border-bottom: 1px solid #87C540;
 }
 #content .user-email-box {
 	 clear: both;

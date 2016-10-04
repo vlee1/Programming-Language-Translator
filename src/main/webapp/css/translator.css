@@ -155,17 +155,18 @@ a:hover {
 	height: 650px;
 	width: 50%;
 	border: none;
-	background: #A8A8A8;
+	background: #CFCFCF;
 	border-right: 1px solid #fff;
-	color: #fff;
+	color: #000;
 	padding-left: 10px;
 	padding-top: 10px;
 	font-family: "Courier New", Courier, monospace;
 }
 #results {
+	color: #000;
 	float: left;
 	height: 650px;
 	width: 50%;
-	background: #A8A8A8;
+	background: #CFCFCF;
 	text-indent: 10px;
 }

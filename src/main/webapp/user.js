@@ -2,6 +2,10 @@ var init = function () {
 
 	selectedMessage();
 	isUserImageExist();
+	var newTabBtn = document.getElementById('gitHubLink');
+	newTabBtn.onclick = function() {
+		openNewTab("https://github.com/vlee1/Programming-Language-Translator")
+	}
 }
 
 function selectedMessage() {
@@ -26,4 +30,9 @@ function isUserImageExist() {
 		imageContent.className = 'image-content';
 		imageDisplay.appendChild(imageContent);
 	}
+}
+
+function openNewTab(url) {
+	var win = window.open(url, '_blank');
+	win.focus();
 }

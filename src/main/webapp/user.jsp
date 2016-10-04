@@ -42,7 +42,11 @@
 
                     <div class="welcome-title">
                         <h2>Welcome <span class="username"></span></h2>
-                        <p>Download source codes in <a href="">Github</a></p>
+
+                        <div class="github">
+                            <p>Download source codes in <span id="gitHubLink" class="gitHubLink">Github</span></p>
+                        </div>
+                        
                     </div>
 
                     <div class="user-email-box">
