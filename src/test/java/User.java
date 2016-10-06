@@ -1,8 +1,6 @@
-import com.matc.util.LocalDateAttributeConverter;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
-import java.time.LocalDate;
 import java.util.Date;
 
 /**
@@ -29,12 +27,10 @@ public class User {
     private String userEmail;
 
     @Column(name = "act_date")
-    @Convert(converter = LocalDateAttributeConverter.class)
-    private LocalDate userActDate;
+    private Date userActDate;
 
     @Column(name = "deact_date")
-    @Convert(converter = LocalDateAttributeConverter.class)
-    private LocalDate userDeactDate;
+    private Date userDeactDate;
 
     /**
      *  An empty constructor
@@ -47,7 +43,7 @@ public class User {
      * @param userName user's uername
      * @param userEmail user's email
      */
-    public User(String userName, String userEmail) {
+    public User(String userName, String userPassword, String userEmail) {
 
         this.userName = userName;
         this.userPassword = userPassword;
@@ -112,25 +108,25 @@ public class User {
      *
      * @return user's activated date
      */
-    public LocalDate getUserActivatedDate() { return userActDate; }
+    public Date getUserActivatedDate() { return userActDate; }
 
     /**
      * set userActDate
      * @param date user's activated date
      */
-    public void setUserActDate(LocalDate date) { this.userActDate = date; }
+    public void setUserActDate(Date date) { this.userActDate = date; }
 
     /**
      *
      * @return user's deactivated date
      */
-    public LocalDate getUserDeactivatedDate() { return userDeactDate; }
+    public Date getUserDeactivatedDate() { return userDeactDate; }
 
     /**
      * sets userDeactDate
      * @param date the date
      */
-    public void setUserDeactDate(LocalDate date) { this.userDeactDate = date; }
+    public void setUserDeactDate(Date date) { this.userDeactDate = date; }
 
 
 

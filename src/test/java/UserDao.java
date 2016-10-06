@@ -2,7 +2,7 @@
 import org.apache.log4j.Logger;
 import org.hibernate.Query;
 import org.hibernate.Session;
-import org.hibernate.criterion.Restrictions;
+//import org.hibernate.criterion.Restrictions;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,10 +19,9 @@ public class UserDao {
      * @return users
      */
     public List<User>getAllUsers() {
-
-        List<User> users = new ArrayList<User>();
+        // TODO need to fix WARNING: "Unchecked assignment: 'java.util.List' to 'java.util.List<User>'"
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
-        users = session.createCriteria(User.class).list();
+        List<User> users = session.createCriteria(User.class).list();
 
         return users;
     }
@@ -59,6 +58,7 @@ public class UserDao {
         id = Integer.parseInt(query.uniqueResult().toString());
         session.close();
 
+        logger.info(id);
         return id;
     }
 

@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<title>PLT</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="css/plt.css">
 	</head>
 	<body>
 		<div id="wrapper">
@@ -31,7 +31,7 @@
 
 					    <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
 					  </div>
-					  <button type="submit" class="btn btn-default">Sign in</button>
+					  <button id="sign-in_btn" type="submit" class="btn btn-default">Sign in</button>
 					</form>
 
 					<!-- Modal -->
@@ -104,7 +104,7 @@
 							Got a file that needs to be translate it? Well, Programming Language Translator will translate your file on the fly.
 						</p>
 						<ul>
-							<li><img src="images/jsfile50.jpg"></li>
+							<li><img src="images/jsFile21.png"></li>
 							<li class="center-list"><img src="images/arrow50.png"></li>
 							<li><img src="images/phpfile23.png"></li>
 						</ul>

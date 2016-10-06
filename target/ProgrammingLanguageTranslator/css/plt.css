@@ -1,9 +1,5 @@
-/*
 
-
-
-
-*/
+/* ---- plt.jsp ---- */ 
 
 *{ margin: 0; padding: 0; }
 
@@ -42,11 +38,30 @@ body {
 #form-sign-in {
 	float: right;
 	margin-top: 10px;
+	margin-right: 10px;
 }
-
+#sign-in_btn {
+	padding: 7px 15px;
+	color: #FFF;
+	background: #017FFD;
+	transition: background ease-out 0.1s;
+	border: 1px solid #00376E;
+}
+#sign-in_btn:hover {
+	background: #0070E0;
+	transition: background ease 0.1s;
+}
 #sign-up_btn {
+	color: #FFF;
 	float: right;
 	margin-top: 10px; 
+	background: #87C540;
+	border: 1px solid #448100;
+	transition: background ease-out 0.1s;
+}
+#sign-up_btn:hover {
+	background: #77B036;
+	transition: background ease 0.1s;
 }
 
 
@@ -135,6 +150,7 @@ body {
 }
 #feature-upload li {
 	float: left;
+	margin-left: 20px;
 }
 #feature-create {
 	float: right;
@@ -178,5 +194,3 @@ body {
 	width: 50px; 
 	color: #cbcbcb;
 }
-
-
