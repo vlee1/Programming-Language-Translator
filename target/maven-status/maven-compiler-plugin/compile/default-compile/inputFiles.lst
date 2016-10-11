@@ -1,6 +1,9 @@
+/home/student/Projects/individual/Programming-Language-Translator/src/main/java/com/matc/persistence/UserDao.java
 /home/student/Projects/individual/Programming-Language-Translator/src/main/java/com/matc/controller/SignUp.java
 /home/student/Projects/individual/Programming-Language-Translator/src/main/java/com/matc/persistence/Database.java
 /home/student/Projects/individual/Programming-Language-Translator/src/main/java/com/matc/persistence/InputData.java
+/home/student/Projects/individual/Programming-Language-Translator/src/main/java/com/matc/persistence/SessionFactoryProvider.java
+/home/student/Projects/individual/Programming-Language-Translator/src/main/java/com/matc/persistence/LocalDateAttributeConverter.java
 /home/student/Projects/individual/Programming-Language-Translator/src/main/java/com/matc/entity/User.java
 /home/student/Projects/individual/Programming-Language-Translator/src/main/java/com/matc/controller/SignIn.java
 /home/student/Projects/individual/Programming-Language-Translator/src/main/java/com/matc/controller/Profile.java

@@ -104,7 +104,7 @@
 							Got a file that needs to be translate it? Well, Programming Language Translator will translate your file on the fly.
 						</p>
 						<ul>
-							<li><img src="images/jsFile21.png"></li>
+							<li><img src="images/jsfile21.png"></li>
 							<li class="center-list"><img src="images/arrow50.png"></li>
 							<li><img src="images/phpfile23.png"></li>
 						</ul>

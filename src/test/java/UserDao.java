@@ -20,7 +20,6 @@ public class UserDao {
      * @return users
      */
     public List<User>getAllUsers() {
-        // TODO need to fix WARNING: "Unchecked assignment: 'java.util.List' to 'java.util.List<User>'"
         List<User> users = new ArrayList<User>();
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
         users = session.createCriteria(User.class).list();
@@ -107,16 +106,14 @@ public class UserDao {
 
         User selectedUser = (User) session.get(User.class, user.getUserId());
 
-        logger.info(selectedUser.getUserEmail());
         selectedUser.setUserPassword(user.getUserPassword());
         selectedUser.setUserEmail(user.getUserEmail());
 
         session.update(selectedUser);
         session.getTransaction().commit();
 
-        Query query = session.createQuery("SELECT email FROM User");
-        query.setMaxResults(1);
-        String changedEmail = (String) query.uniqueResult();
+        String changedEmail = selectedUser.getUserEmail();
+
         session.close();
 
         return changedEmail;

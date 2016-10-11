@@ -1,0 +1,3 @@
+com/matc/persistence/SessionFactoryProvider.class
+com/matc/persistence/UserDao.class
+com/matc/persistence/LocalDateAttributeConverter.class
