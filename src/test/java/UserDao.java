@@ -2,6 +2,7 @@
 import org.apache.log4j.Logger;
 import org.hibernate.Query;
 import org.hibernate.Session;
+import org.hibernate.cfg.QuerySecondPass;
 //import org.hibernate.criterion.Restrictions;
 
 import java.util.ArrayList;
@@ -20,8 +21,9 @@ public class UserDao {
      */
     public List<User>getAllUsers() {
         // TODO need to fix WARNING: "Unchecked assignment: 'java.util.List' to 'java.util.List<User>'"
+        List<User> users = new ArrayList<User>();
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
-        List<User> users = session.createCriteria(User.class).list();
+        users = session.createCriteria(User.class).list();
 
         return users;
     }
@@ -67,38 +69,57 @@ public class UserDao {
      *
      * @param id user's id
      */
-    public void deleteUser(int id) {
+    public User deleteUser(int id) {
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
+
         session.beginTransaction();
 
         User user = (User) session.get(User.class, id);
         session.delete(user);
 
+        //Junit query testing
+
+        Query query = session.createQuery("SELECT userId FROM User");
+        query.setMaxResults(1);
+        user = (User) query.uniqueResult();
+
+        // End of junit query testing
+
+
         session.getTransaction().commit();
         session.close();
 
-        /*Query query = session.createQuery("DELETE User WHERE userId = :id");
-        query.setParameter("id", id);
+        // Testing for junit
 
-        logger.info("Total user(s) : " + query.executeUpdate() + " is/are deleted");*/
+        return user;
+
+        // End of junit testing
     }
 
     /**
-     * updaes user
+     * updates user
      *
      * @param user the user
      */
-    public void updateUser(User user) {
+    public String updateUser(User user) {
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
         session.beginTransaction();
 
         User selectedUser = (User) session.get(User.class, user.getUserId());
+
+        logger.info(selectedUser.getUserEmail());
         selectedUser.setUserPassword(user.getUserPassword());
         selectedUser.setUserEmail(user.getUserEmail());
 
         session.update(selectedUser);
         session.getTransaction().commit();
+
+        Query query = session.createQuery("SELECT email FROM User");
+        query.setMaxResults(1);
+        String changedEmail = (String) query.uniqueResult();
         session.close();
+
+        return changedEmail;
 
     }
 
