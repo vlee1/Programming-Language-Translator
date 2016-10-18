@@ -2,6 +2,7 @@ package com.matc.controller;
 
 import com.matc.entity.User;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -25,6 +26,9 @@ public class SignUp extends HttpServlet {
 
         //User newUser = new User(request.getParameter("user_name"));
         User userData = new User();
+
+        RequestDispatcher dispatcher = request.getRequestDispatcher("/user.jsp");
+        dispatcher.forward(request, response);
 
     }
 

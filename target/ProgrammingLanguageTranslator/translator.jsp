@@ -31,6 +31,9 @@
 
             <div id="content">
                 <div class="form-group">
+
+                    <!-- TODO: //// Add an 'onclick' event to write file on textbox -->
+
                     <label for="fileUpload">Upload your file</label>
                     <input type="file" id="fileUpload">
                     <p class="help-block">Only programming language files (.js, .java, .php, etc.)</p>

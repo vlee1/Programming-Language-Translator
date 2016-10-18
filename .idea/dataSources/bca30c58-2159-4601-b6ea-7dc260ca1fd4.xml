@@ -9,126 +9,154 @@
     <schema id="4" name="performance_schema"/>
     <schema id="5" name="phpmyadmin"/>
     <schema id="6" name="sys"/>
-    <table id="7" parent="1" name="user"/>
-    <table id="8" parent="1" name="message"/>
-    <table id="9" parent="1" name="message_recipient"/>
-    <table id="10" parent="1" name="user_group"/>
-    <table id="11" parent="1" name="group"/>
-    <column id="12" parent="7" name="u_id">
+    <schema id="7" name="sample"/>
+    <table id="8" parent="1" name="user"/>
+    <table id="9" parent="1" name="message"/>
+    <table id="10" parent="1" name="message_recipient"/>
+    <table id="11" parent="1" name="user_group"/>
+    <table id="12" parent="1" name="group"/>
+    <table id="13" parent="1" name="user_role"/>
+    <table id="14" parent="1" name="user_auth"/>
+    <column id="15" parent="8" name="u_id">
       <mandatory>1</mandatory>
       <data-type>int(11)|0</data-type>
       <sequence-identity>1</sequence-identity>
     </column>
-    <column id="13" parent="7" name="username">
+    <column id="16" parent="8" name="username">
       <mandatory>1</mandatory>
       <data-type>varchar(64)|0</data-type>
     </column>
-    <column id="14" parent="7" name="password">
+    <column id="17" parent="8" name="password">
       <mandatory>1</mandatory>
       <data-type>varchar(64)|0</data-type>
     </column>
-    <column id="15" parent="7" name="email">
+    <column id="18" parent="8" name="email">
       <data-type>varchar(82)|0</data-type>
     </column>
-    <column id="16" parent="7" name="act_date">
+    <column id="19" parent="8" name="act_date">
       <mandatory>1</mandatory>
       <data-type>date|0</data-type>
     </column>
-    <column id="17" parent="7" name="deact_date">
+    <column id="20" parent="8" name="deact_date">
       <data-type>date|0</data-type>
     </column>
-    <key id="18" parent="7" name="PRIMARY">
+    <key id="21" parent="8" name="PRIMARY">
       <columns>u_id</columns>
       <primary>1</primary>
     </key>
-    <column id="19" parent="8" name="m_id">
+    <column id="22" parent="9" name="m_id">
       <mandatory>1</mandatory>
       <data-type>int(11)|0</data-type>
       <sequence-identity>1</sequence-identity>
     </column>
-    <column id="20" parent="8" name="subject">
+    <column id="23" parent="9" name="subject">
       <mandatory>1</mandatory>
       <data-type>tinytext|0</data-type>
     </column>
-    <column id="21" parent="8" name="description">
+    <column id="24" parent="9" name="description">
       <mandatory>1</mandatory>
       <data-type>longtext|0</data-type>
     </column>
-    <column id="22" parent="8" name="filename">
+    <column id="25" parent="9" name="filename">
       <data-type>longblob|0</data-type>
     </column>
-    <column id="23" parent="8" name="creator_id">
+    <column id="26" parent="9" name="creator_id">
       <mandatory>1</mandatory>
       <data-type>int(11)|0</data-type>
     </column>
-    <column id="24" parent="8" name="create_date">
+    <column id="27" parent="9" name="create_date">
       <data-type>int(11)|0</data-type>
     </column>
-    <column id="25" parent="8" name="parent_id">
+    <column id="28" parent="9" name="parent_id">
       <mandatory>1</mandatory>
       <data-type>int(11)|0</data-type>
     </column>
-    <key id="26" parent="8" name="PRIMARY">
+    <key id="29" parent="9" name="PRIMARY">
       <columns>m_id</columns>
       <primary>1</primary>
     </key>
-    <column id="27" parent="9" name="mr_id">
+    <column id="30" parent="10" name="mr_id">
       <mandatory>1</mandatory>
       <data-type>int(11)|0</data-type>
       <sequence-identity>1</sequence-identity>
     </column>
-    <column id="28" parent="9" name="recipient_id">
+    <column id="31" parent="10" name="recipient_id">
       <mandatory>1</mandatory>
       <data-type>int(11)|0</data-type>
     </column>
-    <column id="29" parent="9" name="recipient_grp_id">
+    <column id="32" parent="10" name="recipient_grp_id">
       <mandatory>1</mandatory>
       <data-type>int(11)|0</data-type>
     </column>
-    <column id="30" parent="9" name="message_id">
+    <column id="33" parent="10" name="message_id">
       <mandatory>1</mandatory>
       <data-type>int(11)|0</data-type>
     </column>
-    <column id="31" parent="9" name="is_read">
+    <column id="34" parent="10" name="is_read">
       <mandatory>1</mandatory>
       <data-type>varchar(1)|0</data-type>
     </column>
-    <key id="32" parent="9" name="PRIMARY">
+    <key id="35" parent="10" name="PRIMARY">
       <columns>mr_id</columns>
       <primary>1</primary>
     </key>
-    <column id="33" parent="10" name="ug_id">
+    <column id="36" parent="11" name="ug_id">
       <mandatory>1</mandatory>
       <data-type>int(11)|0</data-type>
       <sequence-identity>1</sequence-identity>
     </column>
-    <column id="34" parent="10" name="user_id">
+    <column id="37" parent="11" name="user_id">
       <mandatory>1</mandatory>
       <data-type>int(11)|0</data-type>
     </column>
-    <column id="35" parent="10" name="group_id">
+    <column id="38" parent="11" name="group_id">
       <mandatory>1</mandatory>
       <data-type>int(11)|0</data-type>
     </column>
-    <key id="36" parent="10" name="PRIMARY">
+    <key id="39" parent="11" name="PRIMARY">
       <columns>ug_id</columns>
       <primary>1</primary>
     </key>
-    <column id="37" parent="11" name="g_id">
+    <column id="40" parent="12" name="g_id">
       <mandatory>1</mandatory>
       <data-type>int(11)|0</data-type>
       <sequence-identity>1</sequence-identity>
     </column>
-    <column id="38" parent="11" name="group_name">
+    <column id="41" parent="12" name="group_name">
       <mandatory>1</mandatory>
       <data-type>text|0</data-type>
     </column>
-    <column id="39" parent="11" name="create_date">
+    <column id="42" parent="12" name="create_date">
       <mandatory>1</mandatory>
       <data-type>date|0</data-type>
     </column>
-    <key id="40" parent="11" name="PRIMARY">
+    <key id="43" parent="12" name="PRIMARY">
       <columns>g_id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="44" parent="13" name="user_name">
+      <mandatory>1</mandatory>
+      <data-type>varchar(36)|0</data-type>
+    </column>
+    <column id="45" parent="13" name="user_role">
+      <mandatory>1</mandatory>
+      <data-type>varchar(15)|0</data-type>
+    </column>
+    <key id="46" parent="13" name="PRIMARY">
+      <columns>user_name
+user_role</columns>
+      <primary>1</primary>
+    </key>
+    <column id="47" parent="14" name="user_name">
+      <mandatory>1</mandatory>
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="48" parent="14" name="user_pass">
+      <mandatory>1</mandatory>
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <key id="49" parent="14" name="PRIMARY">
+      <columns>user_name</columns>
       <primary>1</primary>
     </key>
   </database-model>
