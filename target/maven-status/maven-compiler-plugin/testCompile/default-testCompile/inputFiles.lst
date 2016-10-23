@@ -1,5 +1,2 @@
-/home/student/Projects/individual/Programming-Language-Translator/src/test/java/SessionFactoryProvider.java
-/home/student/Projects/individual/Programming-Language-Translator/src/test/java/LocalDateAttributeConverter.java
-/home/student/Projects/individual/Programming-Language-Translator/src/test/java/UserDao.java
-/home/student/Projects/individual/Programming-Language-Translator/src/test/java/User.java
-/home/student/Projects/individual/Programming-Language-Translator/src/test/java/UserDaoTest.java
+/home/student/Projects/individual/Programming-Language-Translator/src/test/java/com/matc/persistence/User.java
+/home/student/Projects/individual/Programming-Language-Translator/src/test/java/com/matc/persistence/UserDaoTest.java

@@ -21,7 +21,7 @@
         <property name="show_sql">true</property>
 
         <!-- List the annotated entity class/es -->
-        <mapping class="Test"/>
+        <mapping class="com.matc.entity.User"/>
 
     </session-factory>
 

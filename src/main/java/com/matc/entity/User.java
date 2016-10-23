@@ -53,6 +53,7 @@ public class User {
         this.userName = userName;
         this.userPassword = userPassword;
         this.userEmail = userEmail;
+        this.userActDate = LocalDate.now();
     }
 
     /**
