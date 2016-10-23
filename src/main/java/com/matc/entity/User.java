@@ -1,8 +1,9 @@
 package com.matc.entity;
 
+import com.matc.persistence.LocalDateAttributeConverter;
 import org.hibernate.annotations.GenericGenerator;
 
-import java.util.Date;
+import java.time.LocalDate;
 import javax.persistence.*;
 
 /**
@@ -10,29 +11,31 @@ import javax.persistence.*;
  */
 
 @Entity
-@Table(name = "User")
+@Table(name = "user")
 public class User {
 
     @Id
     @GeneratedValue(generator="increment")
     @GenericGenerator(name="increment", strategy = "increment")
-    @Column(name = "user_id")
+    @Column(name = "u_id")
     private int userId;
 
-    @Column(name = "user_name")
+    @Column(name = "username")
     private String userName;
 
-    @Column(name = "user_password")
+    @Column(name = "password")
     private String userPassword;
 
-    @Column(name = "user_email")
+    @Column(name = "email")
     private String userEmail;
 
-    @Column(name = "user_actDate")
-    private Date userActDate;
+    @Column(name = "act_date")
+    @Convert(converter = LocalDateAttributeConverter.class)
+    private LocalDate userActDate;
 
-    @Column(name = "user_deactDate")
-    private Date userDeactDate;
+    @Column(name = "deact_date")
+    @Convert(converter = LocalDateAttributeConverter.class)
+    private LocalDate userDeactDate;
 
     /**
      *  An empty constructor
@@ -45,7 +48,7 @@ public class User {
      * @param userName user's uername
      * @param userEmail user's email
      */
-    public User (String userName, String userEmail) {
+    public User (String userName, String userEmail, String userPassword) {
 
         this.userName = userName;
         this.userPassword = userPassword;
@@ -110,25 +113,25 @@ public class User {
      *
      * @return user's activated date
      */
-    public Date getUserActivatedDate() { return userActDate; }
+    public LocalDate getUserActivatedDate() { return userActDate; }
 
     /**
      * set userActDate
      * @param date user's activated date
      */
-    public void setUserActDate(Date date) { this.userActDate = date; }
+    public void setUserActDate(LocalDate date) { this.userActDate = date; }
 
     /**
      *
      * @return user's deactivated date
      */
-    public Date getUserDeactivatedDate() { return userDeactDate; }
+    public LocalDate getUserDeactivatedDate() { return userDeactDate; }
 
     /**
      * sets userDeactDate
      * @param date the date
      */
-    public void setUserDeactDate(Date date) { this.userDeactDate = date; }
+    public void setUserDeactDate(LocalDate date) { this.userDeactDate = date; }
 
 
 

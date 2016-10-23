@@ -1,6 +1,7 @@
 package com.matc.controller;
 
 import com.matc.entity.User;
+import com.matc.persistence.UserDao;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -20,12 +21,22 @@ import java.io.IOException;
 public class SignUp extends HttpServlet {
 
     @Override
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
     {
         HttpSession session = request.getSession();
+        UserDao userDao = new UserDao();
 
         //User newUser = new User(request.getParameter("user_name"));
-        User userData = new User();
+        String username = request.getParameter("create_userName");
+        String password = request.getParameter("create_password");
+        String email = request.getParameter("new_email");
+
+        User newUser = new User(username, email, password);
+        Integer userId = userDao.addUser(newUser);
+
+        session.setAttribute("userID", userId);
+        session.setAttribute("userName", userDao.getUser(userId).getUserName());
+        //User userData = new User();
 
         RequestDispatcher dispatcher = request.getRequestDispatcher("/user.jsp");
         dispatcher.forward(request, response);

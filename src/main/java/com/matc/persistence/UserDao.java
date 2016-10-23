@@ -61,7 +61,6 @@ public class UserDao {
         id = Integer.parseInt(query.uniqueResult().toString());
         session.close();
 
-        logger.info(id);
         return id;
     }
 

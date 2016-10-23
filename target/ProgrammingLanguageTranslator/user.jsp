@@ -24,7 +24,7 @@
                         </div>
 
                         <div class="signed-user" class="nav-header">
-                            <a href="#">Username</a>
+                            <a href="#"><% session.getAttribute("userName"); %></a>
                         </div>
 
                         <div class="translator-link-container">

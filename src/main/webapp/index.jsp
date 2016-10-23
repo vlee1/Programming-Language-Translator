@@ -50,19 +50,19 @@
 
 										<form id="form-sign-up" class="form-inline" method="POST" action="/signup">
 											<div class="form-group">
-												<input type="text" class="form-control" id="new_email" placeholder="Enter your email">
+												<input type="text" class="form-control" id="new_email" name="new_email" placeholder="Enter your email">
 											</div>
 											<br />
 											<div class="form-group">
-												<input type="text" class="form-control" id="create_userName" placeholder="Create your username">
+												<input type="text" class="form-control" id="create_userName" name="create_userName" placeholder="Create your username">
 											</div>
 											<br />
 											<div class="form-group">
-												<input type="password" class="form-control" id="create_password" placeholder="Create your password">
+												<input type="password" class="form-control" id="create_password" name="create_password" placeholder="Create your password">
 											</div>
 											<br />
 											<div class="form-group">
-												<input type="password" class="form-control" id="confirm_password" placeholder="Confirm your password">
+												<input type="password" class="form-control" id="confirm_password" name="confirm_password" placeholder="Confirm your password">
 											</div>
 											<br />
 											<div class="checkbox">
