@@ -39,7 +39,7 @@ public class SignUp extends HttpServlet {
         //User userData = new User();
 
         RequestDispatcher dispatcher = request.getRequestDispatcher("/user.jsp");
-        dispatcher.forward(request, response);
+        //dispatcher.forward(request, response);
 
     }
 

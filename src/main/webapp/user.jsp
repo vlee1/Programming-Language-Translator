@@ -1,10 +1,8 @@
 <!DOCTYPE html> 
 
-<!-- <%@ page contentType="text/html;charset=UTF-8" language="java" %> -->
 <html>
     <head>
         <meta charset="utf-8">
-        <!-- TODO get user name and replace with 'User' -->
         <title>PLT | User</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="css/plt.css">
@@ -24,7 +22,7 @@
                         </div>
 
                         <div class="signed-user" class="nav-header">
-                            <a href="#"><% session.getAttribute("userName"); %></a>
+                            <a href="#"><%session.getAttribute("userName"); %></a>
                         </div>
 
                         <div class="translator-link-container">
