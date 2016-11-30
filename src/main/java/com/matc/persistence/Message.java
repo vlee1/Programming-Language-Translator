@@ -7,6 +7,7 @@ public class Message {
 
     private int messageid;
     private int userid;
+    private ArrayList<Message> messages;
     private String recipientemail;
     private String description;
     private String useremail;
@@ -27,4 +28,12 @@ public class Message {
     public String getDocument() { return this.document; }
     public String getRecipientEmail() { return this.recipientemail; }
     public String getSubject() { return this.subject; }
+
+    public void send() {
+
+    }
+
+    public void write() {
+
+    }
 }
