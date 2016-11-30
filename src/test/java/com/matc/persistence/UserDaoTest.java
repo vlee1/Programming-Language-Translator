@@ -17,6 +17,7 @@ public class UserDaoTest {
     User user;
     List<User> users;
 
+    // TODO: Fix tests
     @Before
     public void setUp() {
         user = new User("test", "SomePassword", "vang@email.com");

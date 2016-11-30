@@ -1,7 +1,6 @@
-<!DOCTYPE html> 
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<!DOCTYPE html>
 
-<!--<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<%@ page session="true" %> -->
 <html>
     <head>
         <meta charset="utf-8">
@@ -24,7 +23,7 @@
                         </div>
 
                         <div class="signed-user" class="nav-header">
-                            <a href="#"><!-- <c:out value = "${sessionScope.[userName]}" /> --> <% session.getAttribute("userName"); %></a>
+                            <a href="#"></a>
                         </div>
 
                         <div class="translator-link-container">
