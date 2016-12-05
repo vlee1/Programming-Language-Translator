@@ -1,0 +1,820 @@
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/plt]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+org.hibernate.MappingException: Unknown entity: com.matc.persistence.Message
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/plt]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+org.hibernate.MappingException: Unknown entity: com.matc.entity.Message
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/plt]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+org.hibernate.MappingException: Unknown entity: com.matc.entity.Message
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/plt]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+org.hibernate.MappingException: Unknown entity: com.matc.entity.Message
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/plt]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+org.hibernate.MappingException: Unknown entity: com.matc.entity.Message
+Creating...
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/plt]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+org.hibernate.MappingException: Unknown entity: com.matc.entity.Message
+Creating...
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/plt]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+Processing now
+org.hibernate.MappingException: Unknown entity: com.matc.entity.Message
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/plt]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/plt]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/plt]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+Creating...
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/plt]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+Processing now
+Creating...
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/plt]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+Processing now
+Creating...
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/plt]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+Processing now
+Creating...
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/plt]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+Processing now
+Creating...
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/plt]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+Processing now
+SQL Error: 1265, SQLState: 01000
+Data truncated for column 'create_date' at row 1
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1265, SQLState: 01000
+Data truncated for column 'create_date' at row 1
+org.hibernate.exception.GenericJDBCException: could not execute statement
+Creating...
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/plt]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+Processing now
+SQL Error: 1364, SQLState: HY000
+Field 'parent_id' doesn't have a default value
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1364, SQLState: HY000
+Field 'parent_id' doesn't have a default value
+org.hibernate.exception.GenericJDBCException: could not execute statement
+Creating...
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/plt]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+Processing now
+SQL Error: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`))
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`))
+org.hibernate.exception.ConstraintViolationException: could not execute statement
+Creating...
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/plt]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+Processing now
+SQL Error: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`))
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`))
+org.hibernate.exception.ConstraintViolationException: could not execute statement
+Creating...
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/plt]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+Processing now
+SQL Error: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`))
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`))
+org.hibernate.exception.ConstraintViolationException: could not execute statement
+Creating...
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/plt]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+Processing now
+SQL Error: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`))
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`))
+org.hibernate.exception.ConstraintViolationException: could not execute statement
+Creating...
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/plt]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+Processing now
+SQL Error: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`))
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`))
+org.hibernate.exception.ConstraintViolationException: could not execute statement
+Creating...
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/plt]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+Processing now
+SQL Error: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`))
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`))
+org.hibernate.exception.ConstraintViolationException: could not execute statement
+Creating...
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/plt]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+Processing now
+SQL Error: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`))
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`))
+org.hibernate.exception.ConstraintViolationException: could not execute statement
+Creating...
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/plt]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+Processing now
+SQL Error: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`))
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`))
+org.hibernate.exception.ConstraintViolationException: could not execute statement
+Creating...
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/plt]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+Processing now
+SQL Error: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`))
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`))
+org.hibernate.exception.ConstraintViolationException: could not execute statement
+Creating...
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/plt]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+Processing now
+SQL Error: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`))
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`))
+org.hibernate.exception.ConstraintViolationException: could not execute statement
+Creating...
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/plt]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+Processing now
+SQL Error: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`))
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`))
+org.hibernate.exception.ConstraintViolationException: could not execute statement
+Creating...
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/plt]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+Processing now
+SQL Error: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`) ON DELETE CASCADE)
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`) ON DELETE CASCADE)
+org.hibernate.exception.ConstraintViolationException: could not execute statement
+Creating...
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/plt]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+Processing now
+SQL Error: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`) ON DELETE CASCADE)
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`) ON DELETE CASCADE)
+org.hibernate.exception.ConstraintViolationException: could not execute statement
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/plt]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+SQL Error: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`) ON DELETE CASCADE)
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`) ON DELETE CASCADE)
+org.hibernate.exception.ConstraintViolationException: could not execute statement
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/plt]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+SQL Error: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`) ON DELETE CASCADE)
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`) ON DELETE CASCADE)
+org.hibernate.exception.ConstraintViolationException: could not execute statement
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/plt]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+SQL Error: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`) ON DELETE CASCADE)
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`) ON DELETE CASCADE)
+org.hibernate.exception.ConstraintViolationException: could not execute statement
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/plt]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+SQL Error: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`) ON DELETE CASCADE ON UPDATE SET NULL)
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`) ON DELETE CASCADE ON UPDATE SET NULL)
+org.hibernate.exception.ConstraintViolationException: could not execute statement
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/plt]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+SQL Error: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`) ON DELETE CASCADE)
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`) ON DELETE CASCADE)
+org.hibernate.exception.ConstraintViolationException: could not execute statement
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/plt]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+SQL Error: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`) ON DELETE CASCADE)
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`) ON DELETE CASCADE)
+org.hibernate.exception.ConstraintViolationException: could not execute statement
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/plt]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+SQL Error: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`) ON DELETE CASCADE)
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`) ON DELETE CASCADE)
+org.hibernate.exception.ConstraintViolationException: could not execute statement
+Creating...
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/plt]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+Processing now
+SQL Error: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`) ON DELETE CASCADE)
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`) ON DELETE CASCADE)
+org.hibernate.exception.ConstraintViolationException: could not execute statement
+Creating...
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/plt]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+Processing now
+SQL Error: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`) ON DELETE CASCADE)
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1452, SQLState: 23000
+Cannot add or update a child row: a foreign key constraint fails (`plt`.`message`, CONSTRAINT `message_message_m_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `message` (`m_id`) ON DELETE CASCADE)
+org.hibernate.exception.ConstraintViolationException: could not execute statement
+Creating...
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/plt]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Creating...
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/plt]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+Processing now
+SQL Error: 1048, SQLState: 23000
+Column 'parent_id' cannot be null
+HHH000010: On release of batch it still contained JDBC statements
+SQL Warning Code: 1048, SQLState: 23000
+Column 'parent_id' cannot be null
+org.hibernate.exception.ConstraintViolationException: could not execute statement
+Creating...
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/plt]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000006: Autocommit mode: false
+HHH000115: Hibernate connection pool size: 20 (min=1)
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+Processing now

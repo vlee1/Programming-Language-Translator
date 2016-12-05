@@ -1,6 +1,7 @@
 package com.matc.persistence;
 
 import com.matc.entity.User;
+import com.matc.persistence.UserDao;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -30,7 +31,7 @@ public class UserDaoTest {
     public void getAllUsers() {
         UserDao dao = new UserDao();
 
-        //Assert.assertNotNull(dao.getAllUsers());
+        Assert.assertNotNull(dao.getAllUsers());
         //Assert.assertEquals(0, dao.getAllUsers().size());
     }
 
@@ -45,7 +46,7 @@ public class UserDaoTest {
     public void addUser() {
         UserDao dao = new UserDao();
 
-        //Assert.assertTrue(0 < dao.addUser(user));
+        Assert.assertTrue(0 < dao.addUser(user));
     }
 
     @Test
