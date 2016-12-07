@@ -1,15 +1,11 @@
 package com.matc.persistence;
 
 import com.matc.entity.Message;
+import com.matc.entity.MessageStatus;
 import org.apache.log4j.Logger;
-import org.hibernate.HibernateException;
-import org.hibernate.SQLQuery;
 import org.hibernate.Session;
-import org.hibernate.Transaction;
-import org.hibernate.criterion.Order;
 import org.hibernate.criterion.Restrictions;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -24,74 +20,72 @@ public class MessageDao extends GenericDao {
     }
 
     /**
-     * Returns an id
-     *
-     * @param message   the message
-     * @return          an id
+     * Returns messages created by user
+     * @param id    user's id
+     * @return      messages
      */
-    public int create(Message message) {
+    public List<Message> getMessagesByUserId(int id) {
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
-        Transaction tx = null;
-        int id = -1;
 
         List<Message> messages = session.createCriteria(Message.class)
-                .add(Restrictions.eq("userid", message.getUserId()))
-                .list();
+                    .add(Restrictions.eq("userid", id))
+                    .list();
 
-        if (messages.size() > 0) {
-            Message parentMessage = messages.get(0);
+        session.close();
 
-            message.setParent(parentMessage);
-
-            try {
-                tx = session.beginTransaction();
-                id = (Integer) session.save(message);
-
-                tx.commit();
-                session.close();
-
-                return id;
-
-            } catch (HibernateException he) {
-                if (tx != null) tx.rollback();
-                log.error(he);
-
-            } finally {
-                session.close();
-            }
-        } else {
-            tx = session.beginTransaction();
-            message.setParent(getLastestParentId());
-
-            id = (Integer) session.save(message);
-
-            update(message);
-
-        }
-
-        return id;
+        return messages;
     }
 
     /**
-     * Returns the latest parent id
-     *
-     * @return  parent id
+     * Returns messages based on status
+     * @param id                user's id
+     * @param messageStatus     status
+     * @return                  messages
      */
-    private Message getLastestParentId() {
-        Message message = null;
+    public List<Message> getMessagesByStatus(int id, MessageStatus messageStatus) {
+        Session session;
+        List<Message> messages = null;
 
-        Session session = SessionFactoryProvider.getSessionFactory().openSession();
-        Transaction tx = session.beginTransaction();
-        List<Message> messages = session.createCriteria(Message.class)
-                    .addOrder(Order.desc("parent_id"))
-                    .list();
+        switch(messageStatus) {
+            case UNREAD:
+                session = SessionFactoryProvider.getSessionFactory().openSession();
 
-        if (messages.size() > 0) {
-            message = messages.get(0);
+                messages = session.createCriteria(Message.class)
+                        .add(Restrictions.eq("status", 0))
+                        .add(Restrictions.eq("userid", id))
+                        .list();
 
-            return message;
+                session.close();
+                return messages;
+
+            case READ:
+                session = SessionFactoryProvider.getSessionFactory().openSession();
+
+                messages = session.createCriteria(Message.class)
+                        .add(Restrictions.eq("messageid", 1))
+                        .add(Restrictions.eq("userid", id))
+                        .list();
+
+                session.close();
+                return messages;
         }
 
-        return message;
+        return messages;
     }
+
+    /**
+     * Returns messages by username
+     * @param username  recipient (username)
+     * @return          messages
+     */
+    public List<Message> getMessagesByUserName(String username) {
+        Session session = SessionFactoryProvider.getSessionFactory().openSession();
+        List<Message> messages = session.createCriteria(Message.class)
+                    .add(Restrictions.eq("username", username))
+                    .list();
+
+        session.close();
+        return messages;
+    }
+
 }

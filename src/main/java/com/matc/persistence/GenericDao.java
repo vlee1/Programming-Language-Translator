@@ -39,7 +39,6 @@ import java.util.List;
         Session session = getSession();
         int id = -1;
 
-        log.info("Processing now");
         try {
             tx = session.beginTransaction();
 
@@ -58,7 +57,6 @@ import java.util.List;
                     tx.commit();
                     break;
             }
-
 
         } catch (HibernateException he) {
             if (tx != null) tx.rollback();

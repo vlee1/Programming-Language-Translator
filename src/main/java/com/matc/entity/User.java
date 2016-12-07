@@ -18,24 +18,24 @@ public class User {
     @GeneratedValue(generator="increment")
     @GenericGenerator(name="increment", strategy = "increment")
     @Column(name = "u_id")
-    private int userId;
+    private int userid;
 
     @Column(name = "username")
-    private String userName;
+    private String username;
 
     @Column(name = "password")
-    private String userPassword;
+    private String userpassword;
 
     @Column(name = "email")
-    private String userEmail;
+    private String useremail;
 
     @Column(name = "act_date")
     @Convert(converter = LocalDateAttributeConverter.class)
-    private LocalDate userActDate;
+    private LocalDate useractdate;
 
     @Column(name = "deact_date")
     @Convert(converter = LocalDateAttributeConverter.class)
-    private LocalDate userDeactDate;
+    private LocalDate userdeactdate;
 
     /**
      *  An empty constructor
@@ -50,22 +50,16 @@ public class User {
      */
     public User (String userName, String userEmail, String userPassword) {
 
-        this.userName = userName;
-        this.userPassword = userPassword;
-        this.userEmail = userEmail;
-        this.userActDate = LocalDate.now();
+        this.username = userName;
+        this.userpassword = userPassword;
+        this.useremail = userEmail;
+        this.useractdate = LocalDate.now();
     }
 
     /**
      * @return user's id
      */
-    public int getUserId() { return userId; }
-
-    /**
-     * sets userId
-     * @param id user's id
-     */
-    public void setUserId(int id) { this.userId = id; };
+    public int getUserId() { return userid; }
 
     /**
      * @return user's username
@@ -73,67 +67,38 @@ public class User {
 
     public String getUserName()
     {
-        return userName;
+        return username;
     }
-
-    /**
-     * sets userName
-     * @param userName user's username
-     */
-    public void setUserName(String userName) { this.userName = userName; }
 
     /**
      * @return user's password
      */
     public String getUserPassword()
     {
-        return userPassword;
+        return userpassword;
     }
-
-    /**
-     * sets userPassword
-     * @param userPassword user's password
-     */
-    public void setUserPassword(String userPassword) { this.userPassword = userPassword; }
 
     /**
      * @return user's email
      */
     public String getUserEmail()
     {
-        return userEmail;
+        return useremail;
     }
-
-    /**
-     * sets userEmail
-     * @param userEmail user's email
-     */
-    public void setUserEmail(String userEmail) { this.userEmail = userEmail; }
 
     /**
      *
      * @return user's activated date
      */
-    public LocalDate getUserActivatedDate() { return userActDate; }
-
-    /**
-     * set userActDate
-     * @param date user's activated date
-     */
-    public void setUserActDate(LocalDate date) { this.userActDate = date; }
+    public LocalDate getUserActivatedDate() { return useractdate; }
 
     /**
      *
      * @return user's deactivated date
      */
-    public LocalDate getUserDeactivatedDate() { return userDeactDate; }
+    public LocalDate getUserDeactivatedDate() { return userdeactdate; }
 
-    /**
-     * sets userDeactDate
-     * @param date the date
-     */
-    public void setUserDeactDate(LocalDate date) { this.userDeactDate = date; }
-
-
-
+    public void setDeactivateUser(LocalDate date) {
+        this.userdeactdate = date;
+    }
 }

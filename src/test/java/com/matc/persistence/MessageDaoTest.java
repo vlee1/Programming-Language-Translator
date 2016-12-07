@@ -1,8 +1,7 @@
 package com.matc.persistence;
 
-import com.matc.entity.Message;
+import com.matc.entity.MessageStatus;
 import org.apache.log4j.Logger;
-import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -12,19 +11,29 @@ import static org.junit.Assert.*;
  */
 public class MessageDaoTest {
 
-    private Logger log = Logger.getLogger(this.getClass());
-    private Message message;
+    private final Logger log = Logger.getLogger(this.getClass());
 
-    @Before
-    public void setUp() {
-        message = new Message(1,"testind","johnDoe@java.com","Test");
+    @Test
+    public void getMessagesByUserId() throws Exception {
+        MessageDao messageDao = new MessageDao();
+        assertTrue(messageDao.getMessagesByUserId(1).size() > 0);
     }
 
     @Test
-    public void testCreate() throws Exception {
-        MessageDao mDao = new MessageDao();
-        assertTrue(mDao.create(this.message) > -1);
-
+    public void getMessagesByStatus() throws Exception {
+        MessageDao messageDao = new MessageDao();
+        assertTrue(messageDao.getMessagesByStatus(1, MessageStatus.READ).size() > 0);
     }
+
+    @Test
+    public void getMessagesByUserName() throws Exception {
+        MessageDao messageDao = new MessageDao();
+        assertTrue(messageDao.getMessagesByUserName("joe2").size() > 0);
+    }
+
+
+
+
+
 
 }

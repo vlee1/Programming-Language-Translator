@@ -22,7 +22,7 @@
 					  		Sign up
 						</button>
 
-						<form id="form-sign-in" class="form-inline">
+						<form id="form-sign-in" class="form-inline" action="/">
 					  		<div class="form-group">
 
 					    		<input type="text" class="form-control" id="email" placeholder="Email">
