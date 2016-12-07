@@ -1,40 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21fecbc7-22ca-45d3-82e0-cdf22518e661" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/adminlog.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/matc/entity/MessageStatus.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/admin.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/matc/entity/ReadStatus.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/matc/persistence/ReadStatus.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/matc/entity/Message.class" afterPath="$PROJECT_DIR$/target/classes/com/matc/entity/Message.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/matc/entity/User.class" afterPath="$PROJECT_DIR$/target/classes/com/matc/entity/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/matc/persistence/GenericDao$1.class" afterPath="$PROJECT_DIR$/target/classes/com/matc/persistence/GenericDao$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/matc/persistence/GenericDao.class" afterPath="$PROJECT_DIR$/target/classes/com/matc/persistence/GenericDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/matc/persistence/MessageDao.class" afterPath="$PROJECT_DIR$/target/classes/com/matc/persistence/MessageDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/matc/persistence/UserDao.class" afterPath="$PROJECT_DIR$/target/classes/com/matc/persistence/UserDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/matc/persistence/GenericDaoTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/matc/persistence/GenericDaoTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/matc/persistence/MessageDaoTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/matc/persistence/MessageDaoTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/matc/persistence/UserDaoTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/matc/persistence/UserDaoTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/0b66d4d1-db25-4e43-babe-40ed08438409.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/0b66d4d1-db25-4e43-babe-40ed08438409.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/logging.log" afterPath="$PROJECT_DIR$/logs/logging.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/matc/controller/SignIn.java" afterPath="$PROJECT_DIR$/src/main/java/com/matc/controller/SignIn.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/matc/controller/SignUp.java" afterPath="$PROJECT_DIR$/src/main/java/com/matc/controller/SignUp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/matc/entity/Message.java" afterPath="$PROJECT_DIR$/src/main/java/com/matc/entity/Message.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/matc/entity/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/matc/entity/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/matc/persistence/GenericDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/matc/persistence/GenericDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/matc/persistence/MessageDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/matc/persistence/MessageDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/matc/persistence/UserDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/matc/persistence/UserDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/matc/persistence/GenericDaoTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/matc/persistence/GenericDaoTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/matc/persistence/MessageDaoTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/matc/persistence/MessageDaoTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/matc/persistence/UserDaoTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/matc/persistence/UserDaoTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/log4j.properties" afterPath="$PROJECT_DIR$/src/test/resources/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/log4j.properties" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/log4j.properties" afterPath="$PROJECT_DIR$/target/test-classes/log4j.properties" />
-    </list>
+    <list default="true" id="21fecbc7-22ca-45d3-82e0-cdf22518e661" name="Default" comment="" />
     <ignored path="programminglanguagetranslatorwebapp.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -1121,7 +1088,7 @@
       <workItem from="1481046137376" duration="2718000" />
       <workItem from="1481049612992" duration="5843000" />
       <workItem from="1481090831122" duration="3372000" />
-      <workItem from="1481094733358" duration="3363000" />
+      <workItem from="1481094733358" duration="3527000" />
     </task>
     <servers />
   </component>
@@ -1158,7 +1125,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169829000" />
+    <option name="totallyTimeSpent" value="169993000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
