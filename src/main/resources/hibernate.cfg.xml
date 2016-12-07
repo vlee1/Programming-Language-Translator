@@ -23,6 +23,7 @@
         <!-- List the annotated entity class/es -->
         <mapping class="com.matc.entity.User"/>
         <mapping class="com.matc.entity.Message"/>
+        <mapping class="com.matc.entity.SourceFile" />
 
     </session-factory>
 

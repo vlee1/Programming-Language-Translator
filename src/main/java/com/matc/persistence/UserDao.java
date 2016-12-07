@@ -3,6 +3,7 @@ package com.matc.persistence;
 import com.matc.entity.User;
 import org.apache.log4j.Logger;
 import org.hibernate.Query;
+import org.hibernate.SQLQuery;
 import org.hibernate.Session;
 import org.hibernate.criterion.Restrictions;
 
@@ -23,7 +24,11 @@ public class UserDao extends GenericDao{
         List<User> users = session.createCriteria(User.class)
                     .add(Restrictions.eq("username", username))
                     .list();
-        User user = users.get(0);
+        User user = null;
+
+        if (users.size() > 0) {
+            user = users.get(0);
+        }
 
         return user;
     }

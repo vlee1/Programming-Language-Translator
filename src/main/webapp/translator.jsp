@@ -65,7 +65,7 @@
 
                                 <input class="fileName_txt" type="text" name="fileName_txt" placeholder="Enter file name"> 
 
-                                <input class="convert_btn gen_btn" type="submit" name="convert" value="Convert">
+                                <button id="convert" class="convert_btn gen_btn" type="submit" name="convert">Convert</button>
 
                             </section>
                             <!-- section1 -->
@@ -91,7 +91,7 @@
                     </div>
                     <!-- language-list -->
 
-                    <textarea class="script1" form="scriptForm" name="script1" placeholder="Write your codes here"></textarea>
+                    <textarea class="script1" form="scriptForm" name="script1" spellcheck="false" placeholder="Write your codes here"></textarea>
 
                     <div id="results">
                         <p id="result_script"></p>  

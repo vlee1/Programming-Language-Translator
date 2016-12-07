@@ -12,7 +12,7 @@
             <url-pattern>/admin.jsp</url-pattern>
         </web-resource-collection>
         <auth-constraint>
-            <role-name>administrator</role-name>
+            <role-name>admin</role-name>
         </auth-constraint>
     </security-constraint>
 
@@ -24,4 +24,5 @@
             <form-error-page>/failLogin.jsp</form-error-page>
         </form-login-config>
     </login-config>
+
 </web-app>

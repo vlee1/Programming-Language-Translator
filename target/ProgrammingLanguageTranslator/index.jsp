@@ -22,18 +22,18 @@
 					  		Sign up
 						</button>
 
-						<form id="form-sign-in" class="form-inline">
+						<form id="form-sign-in" class="form-inline" method="POST" action="/profile">
 					  		<div class="form-group">
 
-					    		<input type="text" class="form-control" id="email" placeholder="Email">
+					    		<input type="text" class="form-control" id="userName" name="userName" placeholder="Username">
 
 							</div>
 					  		<div class="form-group">
 
-					    		<input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+					    		<input type="password" class="form-control" id="password" placeholder="Password">
 					  		</div>
 
-							<button id="sign-in_btn" type="submit" class="btn btn-default">Sign in</button>
+							<input type="submit" id="sign-in_btn" name="signup_btn" class="btn btn-default" value="Sign up">
 						</form>
 
 						<!-- Modal -->
@@ -48,7 +48,7 @@
 
 									<div id="modal-body" class="modal-body">
 
-										<form id="form-sign-up" class="form-inline" method="POST" action="/signup">
+										<form id="form-sign-up" class="form-inline" method="POST" action="/profile">
 											<div class="form-group">
 												<input type="text" class="form-control" id="new_email" name="new_email" placeholder="Enter your email">
 											</div>
@@ -90,7 +90,7 @@
 				<div id="content-main">
 					<h2 id="main-message">Programming Language Translator allows you to translate six languages, Java, JavaScript, PHP, HTML, C Sharp and C. Sign up to add more languages in PLT, otherwise, click <span>start</span> to begin.</h2>
 
-					<a id="start-link_btn" href="#">Start</a>
+					<a id="start-link_btn" href="/translator.jsp">Start</a>
 					<p class="version">PLT v1.0</p>
 				</div>
 

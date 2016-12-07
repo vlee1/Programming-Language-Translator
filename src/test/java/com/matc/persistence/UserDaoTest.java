@@ -1,6 +1,7 @@
 package com.matc.persistence;
 
 import com.matc.entity.User;
+import org.apache.log4j.Logger;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -9,11 +10,13 @@ import static org.junit.Assert.*;
  * Created by student on 12/7/16.
  */
 public class UserDaoTest {
+
+    private final Logger log = Logger.getLogger(this.getClass());
+
     @Test
     public void getUsersByUserName() throws Exception {
         UserDao userDao = new UserDao();
-
-        assertTrue(userDao.getUsersByUserName("joe2").size() > 0);
+        assertNotNull("User does not exist with that name", userDao.getUserByUserName("joe2"));
     }
 
     @Test

@@ -1,5 +1,6 @@
 package com.matc.persistence;
 
+import com.matc.entity.Message;
 import com.matc.entity.MessageStatus;
 import org.apache.log4j.Logger;
 import org.junit.Test;
@@ -12,7 +13,15 @@ import static org.junit.Assert.*;
 public class MessageDaoTest {
 
     private final Logger log = Logger.getLogger(this.getClass());
+    @Test
+    public void testCreate() {
+        MessageDao messageDao = new MessageDao();
+        Message message = new Message(1, "joe2", "Testing");
 
+        assertTrue(messageDao.create(message) > -1);
+
+        messageDao.delete(message);
+    }
     @Test
     public void getMessagesByUserId() throws Exception {
         MessageDao messageDao = new MessageDao();

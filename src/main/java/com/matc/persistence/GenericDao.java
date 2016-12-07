@@ -24,7 +24,7 @@ import java.util.List;
 
     public GenericDao() {}
 
-    public int create(T object) { log.info("Creating..."); return genericTransaction(object, SessionCud.CREATE); }
+    public int create(T object) { return genericTransaction(object, SessionCud.CREATE); }
 
     public void update(T object) {
         genericTransaction(object, SessionCud.UPDATE);
