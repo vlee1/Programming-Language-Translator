@@ -24,6 +24,8 @@
         <mapping class="com.matc.entity.User"/>
         <mapping class="com.matc.entity.Message"/>
         <mapping class="com.matc.entity.SourceFile" />
+        <mapping class="com.matc.entity.PersonalClass" />
+        <mapping class="com.matc.entity.PersonalMethod" />
 
     </session-factory>
 
