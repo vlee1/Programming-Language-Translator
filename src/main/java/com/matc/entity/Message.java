@@ -27,6 +27,8 @@ public class Message {
 
     @Column(name="subject")
     private String subject;
+    @Column(name="description")
+    private String description;
 
     @Column(name="create_date")
     @Convert(converter = LocalDateAttributeConverter.class)
@@ -35,7 +37,7 @@ public class Message {
     @Column(name="message_status")
     private MessageStatus status;
 
-    public Message(int userid, String username, String subject) {
+    public Message(int userid, String username, String subject, String description) {
 
         LocalDate localDate = LocalDate.now();
 
@@ -43,16 +45,30 @@ public class Message {
         this.username = username;
         this.subject = subject;
         this.createdDate = localDate;
+        this.description = description;
         this.status = MessageStatus.UNREAD;
     }
 
+    /**
+     * An empty constructor
+     */
     public Message() {}
 
+    /**
+     *
+     * @return
+     */
     public int getMessageId() { return this.messageid; }
+
+    /**
+     *
+     * @return
+     */
     public LocalDate getCreatedDate() { return  this.createdDate; }
     public int getUserId() { return this.userid; }
     public String getUsername() { return this.username; }
     public String getSubject() { return this.subject; }
+    public String getDescription() { return this.description; }
     @Enumerated(EnumType.ORDINAL)
     public MessageStatus getStatus() { return status; }
     private void setStatus(MessageStatus status) { this.status = status; }

@@ -8,45 +8,60 @@
   <name>Programming Language Translator</name>
   <url>http://maven.apache.org</url>
   <dependencies>
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.12</version>
       <scope>test</scope>
     </dependency>
+
     <dependency>
       <groupId>javax</groupId>
       <artifactId>javaee-web-api</artifactId>
       <version>7.0</version>
     </dependency>
+
     <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
     <dependency>
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
       <version>5.1.39</version>
     </dependency>
+
     <!-- https://mvnrepository.com/artifact/log4j/log4j -->
     <dependency>
       <groupId>log4j</groupId>
       <artifactId>log4j</artifactId>
       <version>1.2.17</version>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/jstl/jstl -->
+
+      <!-- https://mvnrepository.com/artifact/javax.servlet/jstl -->
     <dependency>
-      <groupId>jstl</groupId>
-      <artifactId>jstl</artifactId>
-      <version>1.2</version>
+        <groupId>javax.servlet</groupId>
+        <artifactId>jstl</artifactId>
+        <version>1.2</version>
     </dependency>
+
     <!-- Hibernate -->
     <dependency>
       <groupId>org.hibernate</groupId>
       <artifactId>hibernate-core</artifactId>
       <version>4.3.11.Final</version>
     </dependency>
+
+      <!-- https://mvnrepository.com/artifact/com.efsavage.jquery/jquery-maven -->
+      <dependency>
+          <groupId>com.efsavage.jquery</groupId>
+          <artifactId>jquery-maven</artifactId>
+          <version>1.7.2</version>
+      </dependency>
   </dependencies>
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+
   <build>
     <finalName>ProgrammingLanguageTranslator</finalName>
     <plugins>

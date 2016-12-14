@@ -1,4 +1,5 @@
 com/matc/persistence/SessionFactoryProvider.class
+com/matc/controller/GetMessage.class
 com/matc/controller/SignInSignUp.class
 com/matc/persistence/UserDao.class
 com/matc/persistence/LocalDateAttributeConverter.class

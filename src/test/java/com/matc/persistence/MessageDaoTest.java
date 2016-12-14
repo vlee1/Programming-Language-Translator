@@ -16,7 +16,7 @@ public class MessageDaoTest {
     @Test
     public void testCreate() {
         MessageDao messageDao = new MessageDao();
-        Message message = new Message(1, "joe2", "Testing");
+        Message message = new Message(1, "joe2", "Greetings", "Welcome to PLT!");
 
         assertTrue(messageDao.create(message) > -1);
 
@@ -31,7 +31,7 @@ public class MessageDaoTest {
     @Test
     public void getMessagesByStatus() throws Exception {
         MessageDao messageDao = new MessageDao();
-        assertTrue(messageDao.getMessagesByStatus(1, MessageStatus.READ).size() > 0);
+        assertTrue(messageDao.getMessagesByStatus("joe2", MessageStatus.READ).size() > 0);
     }
 
     @Test
@@ -39,9 +39,6 @@ public class MessageDaoTest {
         MessageDao messageDao = new MessageDao();
         assertTrue(messageDao.getMessagesByUserName("joe2").size() > 0);
     }
-
-
-
 
 
 

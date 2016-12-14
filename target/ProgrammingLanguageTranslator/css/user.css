@@ -57,9 +57,7 @@ a:hover {
 	height: 180px;
 	background-color: #DEDEDE;
 }
-#content .user-image .image-content {
-	background: url('../images/profile-icon180.png') no-repeat;
-	background-position: center;
+#content .user-image img {
 	width: 180px;
 	height: 180px;
 }
@@ -117,14 +115,18 @@ a:hover {
 #content .list-group-item {
 	border-right: none;
 	border-left: none;
-	border-bottom: : 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
 	border-radius: 0px;
 }
 #content .list-results {
 	float: left;
 	height: 700px;
 	border-right: 1px solid #ddd;
-	width: 281px;
+	width: 500px;
+}
+#content .list-results #tabs > div {
+	float: left;
+	width: 400px;
 }
 #content .user-email {
 	background: #FFF;

@@ -26,7 +26,7 @@ public class GenericDaoTest {
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
 
         List<Message> messageList = session.createCriteria(Message.class)
-                    .add(Restrictions.eq("messageid", 1))
+                    .add(Restrictions.eq("messageid", 3))
                     .list();
         this.message = messageList.get(0);
 
@@ -36,7 +36,7 @@ public class GenericDaoTest {
     @Test
     public void create() throws Exception {
         GenericDao<Message> messageGenericDao = new GenericDao<>(Message.class);
-        Message newMessage = new Message(1, "test", "Catch-up");
+        Message newMessage = new Message(1, "test", "Catch-up", "Hello there friend! Let's go out sometime.");
         assertTrue(messageGenericDao.create(newMessage) > -1);
 
         messageGenericDao.delete(newMessage);
@@ -60,6 +60,6 @@ public class GenericDaoTest {
     public void getById() throws Exception {
         GenericDao<Message> messageGenericDao = new GenericDao<>(Message.class);
 
-        assertTrue(messageGenericDao.getById(1).getMessageId() == message.getMessageId());
+        assertTrue(messageGenericDao.getById(3).getMessageId() == message.getMessageId());
     }
 }

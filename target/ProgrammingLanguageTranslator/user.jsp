@@ -1,4 +1,3 @@
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 
 <html>
@@ -8,8 +7,9 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="css/plt.css">
         <link rel="stylesheet" type="text/css" href="css/user.css" >
-        <script src="user.js"></script>
     </head>
+    <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+    <%@ page isELIgnored="false" %>
     <body>
         <div id="wrapper">
             <div id="header">
@@ -37,10 +37,11 @@
 
             <div id="content">
                 <div class="user-account-box">
-                    <div id="user-image" class="user-image"></div>
+                    <div id="user-image" class="user-image"><img src="/images/profile-icon180.png" width="180" height="180"/></div>
 
                     <div class="welcome-title">
-                        <h2>Welcome <span class="username"></span></h2>
+
+                        <h2>Welcome <span class="username">${username}</span></h2>
 
                         <div class="github">
                             <p>Download source codes in <span id="gitHubLink" class="gitHubLink">Github</span></p>
@@ -76,34 +77,23 @@
                                     <!-- /.col-lg-6 -->
                                 </form>
                                 <!-- searchForm -->
-
-                                <ul>
-                                    <li>Test list</li>
-                                    <li>Test list</li>
-                                    <li>Test list</li>
-                                    <li>Test list</li>
-                                    <li>Test list</li>
-                                    <li>Test list</li>
-                                    <li>Test list</li>
-                                    <li>Test list</li>
-                                    <li>Test list</li>
-                                    <li>Test list</li>
-                                    <li>Test list</li>
-                                    <li>Test list</li>
-                                    <li>Test list</li>
-                                    <li>Test list</li>
-                                    <li>Test list</li>
-                                    <li>Test list</li>
-                                    <li>Test list</li>
-                                    <li>Test list</li>
-                                    <li>Test list</li>
-                                    <li>Test list</li>
-                                </ul>
+                                <div id="tabs">
+                                    <ul>
+                                        <c:forEach var="message" items="${messages}">
+                                            <li id="<c:out value='${message.getMessageId()}' />" class="message">
+                                                <c:out value="${message.getSubject()}"/>
+                                            </li>
+                                        </c:forEach>
+                                    </ul>
+                                </div>
 
                             </div>
                             <!-- list-results -->
 
-                            <div id="display-result" class="display-result"></div>
+                            <div id="display-result" class="display-result">
+
+                                <div id="description"></div>
+                            </div>
                         </div>
                         <!-- user-email -->
                     </div>
@@ -117,11 +107,23 @@
             </div>
         </div>
     </body>
-    <!-- TODO change to src='user.js' -->
-    <script type="text/javascript">
-        init();
-    </script>
-    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+    <script
+            src="https://code.jquery.com/jquery-3.1.1.js"
+            integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(function() {
+            console.log($(".message").attr("id"));
+
+            $(".message").on('click', function () {
+                $.get('GetMessage', {messageId : 3}, function(responseText) {
+                    $("#description").text(responseText);
+                    console.log(responseText);
+                })
+            })
+
+        })
+    </script>
 </html>

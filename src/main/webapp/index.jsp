@@ -22,7 +22,8 @@
 					  		Sign up
 						</button>
 
-						<form id="form-sign-in" class="form-inline" method="POST" action="/profile">
+						<!-- Sign in form -->
+						<form id="form-sign-in" class="form-inline" method="POST" action="profile">
 					  		<div class="form-group">
 
 					    		<input type="text" class="form-control" id="userName" name="userName" placeholder="Username">
@@ -33,7 +34,7 @@
 					    		<input type="password" class="form-control" id="password" placeholder="Password">
 					  		</div>
 
-							<input type="submit" id="sign-in_btn" name="signup_btn" class="btn btn-default" value="Sign up">
+							<input type="submit" id="sign-in_btn" name="signin_btn" class="btn btn-default" value="Sign In">
 						</form>
 
 						<!-- Modal -->
@@ -47,7 +48,7 @@
 					      			</div>
 
 									<div id="modal-body" class="modal-body">
-
+										<!-- Sign up form -->
 										<form id="form-sign-up" class="form-inline" method="POST" action="/profile">
 											<div class="form-group">
 												<input type="text" class="form-control" id="new_email" name="new_email" placeholder="Enter your email">
